@@ -21,5 +21,4 @@ echo "x"<=>"y";
 echo "<br>";
 echo "y"<=>"x";
 echo "<br>";
-echo "This Program Is Written And Executed By Akshay Jain 0231BCA222";
 ?>

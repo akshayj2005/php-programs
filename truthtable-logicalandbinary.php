@@ -32,5 +32,4 @@ binary not<br>
 | 0 | 1  |<br>
 | 1 | 0  |<br>
 ";
-echo "This Program Is Written And Executed By Akshay Jain 0231BCA222";
 ?>
