@@ -11,5 +11,5 @@ echo "Your fav color is blue";
 break;
 case "green":
 echo "Your fav color is green";
-break;
+break;}
 ?>

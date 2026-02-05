@@ -7,6 +7,6 @@ echo "<br>";
 $color_code = array(
 "Red" => "#ff0000",
 "Green" => "#00ff00",
-"blue" => #0000ff");
+"blue" => "#0000ff");
 var_dump($color_code);
 ?>

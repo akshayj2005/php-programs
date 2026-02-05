@@ -9,10 +9,5 @@ echo $mynum . "<br>";
 
 multiply($mynum);
 echo $mynum;
-echo '<hr>
-<pre style="text-align:center;">
-====================================================================
- This Program is Developed and Executed By 0231BCA222 - Akshay Jain
-====================================================================
-</pre>';
+
 ?>
