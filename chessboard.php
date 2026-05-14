@@ -7,11 +7,9 @@ for ($i = 0; $i < $size; $i++) {
     for ($j = 0; $j < $size; $j++) {
         // Determine color based on position
         if (($i + $j) % 2 == 0) {
-            echo "<td style='background-color: black; width: 50px; height:
-    50px;'></td>";
+            echo "<td style='background-color: black; width: 50px; height:50px;'></td>";
         } else {
-            echo "<td style='background-color: white; width: 50px; height:
-    50px;'></td>";
+            echo "<td style='background-color: white; width: 50px; height:50px;'></td>";
         }
     }
     echo "</tr>";

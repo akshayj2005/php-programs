@@ -15,7 +15,7 @@
             display: block; 
             margin-bottom: 5px;
         }
-        .enquiry-form input {
+        .enquiry-form input{
             width: 90%;
             padding: 8px;
             margin-bottom: 10px;
@@ -42,13 +42,16 @@
         <hr>
         <form method="post" action="">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" pattern="^[a-zA-Z\s]+$" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="phone">Phone:</label>
-            <input type="number" id="phone" name="phone" pattern="[0-9]{10}" required>
+            <input type="number" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number" required>
             <label for="erp">ERP:</label>
             <input type="text" id="erp" name="erp" required>
+            text area
+            <textarea name="textbox" required></textarea>
+
             <button type="submit" name="submit">Submit</button>
         </form>
     </div>
